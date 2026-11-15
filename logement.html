@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logements – Logifac</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <script src="../JavaScript/script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">Logifac</a>
+    <button type="button" class="burger" aria-label="Ouvrir le menu">&#9776;</button>
+    <nav class="menu">
+      <a href="index.html">Accueil</a>
+      <a href="logement.html">Logements</a>
+      <a href="reservation.html">Réservation</a>
+      <a href="àpropos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Nos logements</h1>
+    <p>Tous nos logements sont meublés et les charges sont comprises.</p>
+
+    <!-- Les 3 types de logement -->
+    <div class="cartes">
+      <div class="carte">
+        <img src="../img/chambre.jpg" alt="Chambre en colocation">
+        <h2>Chambre en colocation</h2>
+        <p>Une chambre privée, cuisine et salle de bain partagées.</p>
+        <p class="prix">450 € / mois</p>
+      </div>
+      <div class="carte">
+        <img src="../img/studio.jpg" alt="Studio meublé">
+        <h2>Studio</h2>
+        <p>Une pièce avec coin cuisine et salle de bain privée.</p>
+        <p class="prix">600 € / mois</p>
+      </div>
+      <div class="carte">
+        <img src="../img/t1.jpg" alt="Appartement T1">
+        <h2>T1</h2>
+        <p>Une chambre séparée, une cuisine ,une petit salle de détente et une salle de bain.</p>
+        <p class="prix">750 € / mois</p>
+      </div>
+    </div>
+
+    <!-- Tableau comparatif -->
+    <h2>Comparatif</h2>
+    <table>
+      <caption>Comparaison des logements</caption>
+      <thead>
+        <tr>
+          <th>Logement</th>
+          <th>Surface</th>
+          <th>Loyer</th>
+          <th>Salle de bain</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Chambre en colocation</td>
+          <td>12 m²</td>
+          <td>450 €</td>
+          <td>Partagée</td>
+        </tr>
+        <tr>
+          <td>Studio</td>
+          <td>20 m²</td>
+          <td>600 €</td>
+          <td>Privée</td>
+        </tr>
+        <tr>
+          <td>T1</td>
+          <td>30 m²</td>
+          <td>750 €</td>
+          <td>Privée</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><a href="reservation.html" class="bouton">Réserver un logement</a></p>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="àpropos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <p>&copy; 2026 – Logifac</p>
+  </footer>
+
+</body>
+</html>
