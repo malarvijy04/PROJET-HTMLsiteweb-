@@ -20,9 +20,9 @@ Chaque membre a réalisé une partie du HTML, du CSS et du JavaScript.
 
 | Membre | HTML | CSS | JavaScript |
 |---|---|---|---|
-| **Malarvijy** | `logement.html`, `àpropos.html` | 1. Couleurs et réglages généraux, 7. Carrousel, 8. Tableau comparatif | Le carrousel |
-| **Mamassa** | `index.html` | 2. En-tête et menu, 3. Contenu principal, 6. Cartes, 11. Version mobile | Le menu burger |
-| **Lala** | `reservation.html`, `contact.html` | 4. Bannière, 5. Boutons, 9. Formulaires, 10. Pied de page | Calcul du prix et vérification des formulaires |
+| **Malarvijy** | structure de la page d'accueil | style de la page d'accueil | caroussel de l'accueil |
+| **Mamassa** | structure de la page réservation et la page contact, formulaire de réservation et formulaire de contact | style de la page réservation et la page contact | Formulaire de contact : vérification des champs et envoi du formulaire |
+| **Lala** | structure de la page logement et la page à propos, tableau comparatif des logements | style de la page logement et la page à propos | menu burger et Réservation : calcul du prix et vérification |
 
 ## Organisation des fichiers
 
